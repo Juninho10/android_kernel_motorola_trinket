@@ -684,3 +684,6 @@ CONFIG_KPROBE_EVENTS=y
 
 #Enable Kcal Control
 CONFIG_DRM_MSM_KCAL_CTRL=y
+
+#Enable Boeffla Wakelock Blocker
+CONFIG_BOEFFLA_WL_BLOCKER=y
