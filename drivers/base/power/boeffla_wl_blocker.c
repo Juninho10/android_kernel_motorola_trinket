@@ -36,7 +36,7 @@
 #include <linux/printk.h>
 #include "boeffla_wl_blocker.h"
 
-#define BOEFFLA_WL_BLOCKER_VERSION	"1.0.1"
+#define BOEFFLA_WL_BLOCKER_VERSION	"1.1.0"
 
 
 /*****************************************/
