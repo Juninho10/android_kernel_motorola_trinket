@@ -1,4 +1,4 @@
-CONFIG_LOCALVERSION="-EJRKernel😎v3.1"
+CONFIG_LOCALVERSION="-EJRKernel😎v3.1.1"
 # CONFIG_LOCALVERSION_AUTO is not set
 # CONFIG_FHANDLE is not set
 CONFIG_AUDIT=y
@@ -687,3 +687,6 @@ CONFIG_DRM_MSM_KCAL_CTRL=y
 
 #Enable Boeffla Wakelock Blocker
 CONFIG_BOEFFLA_WL_BLOCKER=y
+
+#Kernel-space Battery Saver
+CONFIG_BATTERY_SAVER=y
