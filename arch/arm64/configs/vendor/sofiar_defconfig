@@ -1,4 +1,4 @@
-CONFIG_LOCALVERSION="-EJRKernel😎v3.1.2"
+CONFIG_LOCALVERSION="-EJRKernel😎v3.2"
 # CONFIG_LOCALVERSION_AUTO is not set
 # CONFIG_FHANDLE is not set
 CONFIG_AUDIT=y
@@ -693,3 +693,6 @@ CONFIG_BATTERY_SAVER=y
 
 #Enable CPU workqueues to save battery
 CONFIG_WQ_POWER_EFFICIENT_DEFAULT=y
+
+#Multiplier for zram size (default is 2 x 1024MB = 2048MB)
+# CONFIG_ZRAM_SIZE_OVERRIDE is not set
