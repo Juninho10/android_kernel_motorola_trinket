@@ -1,4 +1,4 @@
-CONFIG_LOCALVERSION="-EJRKernel😎v3.1.1"
+CONFIG_LOCALVERSION="-EJRKernel😎v3.1.2"
 # CONFIG_LOCALVERSION_AUTO is not set
 # CONFIG_FHANDLE is not set
 CONFIG_AUDIT=y
@@ -690,3 +690,6 @@ CONFIG_BOEFFLA_WL_BLOCKER=y
 
 #Kernel-space Battery Saver
 CONFIG_BATTERY_SAVER=y
+
+#Enable CPU workqueues to save battery
+CONFIG_WQ_POWER_EFFICIENT_DEFAULT=y
